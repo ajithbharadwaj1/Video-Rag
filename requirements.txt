@@ -1,0 +1,6 @@
+webvtt-py
+openai-whisper
+moviepy
+pytubefix
+youtube-transcript-api
+datasets
