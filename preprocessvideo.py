@@ -457,11 +457,7 @@ prediction_guard_llava_conv = Conversation(
 
 def lvlm_inference_with_conversation(conversation, max_tokens: int = 200, temperature: float = 0.95, top_p: float = 0.1):
     # get PredictionGuard client
-    client = AzureOpenAI(
-  azure_endpoint = "https://gai-sl-openai.openai.azure.com/", 
-  api_key="b62ebb8214074646b3195315b0ae0f25",  
-  api_version="2024-02-01"
-)
+    
     # get message from conversation
     messages = conversation.get_message()
     # call chat completion endpoint at Grediction Guard
