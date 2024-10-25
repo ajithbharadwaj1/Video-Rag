@@ -1,1 +1,3 @@
 video_rag/
+.env
+__pycache__

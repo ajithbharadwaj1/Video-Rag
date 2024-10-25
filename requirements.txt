@@ -4,3 +4,5 @@ moviepy
 pytubefix
 youtube-transcript-api
 datasets
+openai
+opencv-python
